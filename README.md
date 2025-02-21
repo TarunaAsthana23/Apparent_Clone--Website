@@ -1,2 +1,2 @@
-# Apparent_Clone -/- Website
-This is an Apparent clone project built using HTML, CSS, and JavaScript. It includes a responsive homepage. The design is inspired by Apparent’s layout, and it supports basic interactions like product hover effects, search bar functionality, and category filtering.
+# Apparent Technologies Website
+This project is the official website of Apparent Technologies Inc., developed using HTML, CSS, and JavaScript. The website showcases the services and expertise of an engineering and manufacturing company, featuring sections like Home, About, Services, and Contact. Designed to be responsive and user-friendly, it provides an optimal experience on both mobile and desktop devices. With a clean interface, smooth navigation, and a modern UI, this website enhances the company's professional presence.
