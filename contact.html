@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apparent Technologies</title> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+              integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <header>
+            <!-- Hero Image with ID -->
+            <!-- <img id="hero" class="hero" src="Img/HERO.jp" alt="Background Image"> -->
+            
+            <div class="nav">
+                <nav class="navbar">
+                    
+                    <a href="index.html">
+                        <img class="logo" id="logo" src="Img/s.png" alt="Logo">
+                    </a>
+                
+                    
+                    <div class="menu-icon" onclick="toggleMenu()">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                    </div>
+        
+                   
+                    <div class="menu" id="menu">
+                        <ul>
+                            <li><a id="font" href="index.html">Home</a></li>
+                            <li><a id="font" href="about.html">About</a></li>
+                            <li><a id="font" href="service.html">Services</a></li>
+                            <li><a id="font" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+                                                    <!-- Main -->
+                                                    <!-- box2 -->
+        <main>
+            <div class="box2">
+
+                <div class="parh">
+                    <div class="parh1">
+                        <h1 class="font1">Contact us.</h1>
+                    </div>
+                    <div class="parh2">    
+                        <a id="font2" href="mailto:hiyasrivastava777@gmail.com">hiyasrivastava777@gmail.com</a><br>
+                        <a id="font3" href="tel:+917985877742">+917985877742</a>
+                    </div>
+                    <div class="parh3">
+                        <p class="font4">Janakpuri<br>New Delhi, Delhi <br>110058, 110059 </p>  
+                    </div>
+                </div>
+        
+                             <!-- Registration -->  
+
+                <div class="registration" id="registration">
+                    <form id="contactForm" action="" method="">
+                        <div class="error-container" id="errorContainer"></div> 
+                        <div class="form1">
+                            <label class="label1">Name <span style="color: hsl(0deg 0.87% 46.99%); font-size: 14.4px;">(required)</span></label>
+                            <div class="name-fields1"> 
+                                <div class="error" id="firstNameError"></div>
+                                <div class="error" id="lastNameError"></div>
+                            </div>   
+                            <div class="name-fields2">
+                                <label class="label1_2">First Name</label>
+                                    <!---_______----->
+                                <label class="label1_2">Last Name</label>
+                            </div>
+                            <div class="name-fields3">                     
+                                <input id="first_name" type="text" name="first_name" placeholder="" >
+                                    <!-- <input class="type1" type="text" name="first_name" placeholder="" required> --> 
+                                <input id="last_name" type="text" name="last_name" placeholder="" >                          
+                            </div>
+                        </div>
+                        <div class="form2">
+                            <label class="label2">Email <span style="color: hsl(0deg 0.87% 46.99%); font-size: 14.4px;">(required)</span></label>
+                            <div class="error" id="emailError"></div>
+                            <input id="email" type="email" name="email" placeholder="" >
+                        </div>
+                                                                    
+                        <div class="form3">
+                            <label class="label3">Message <span style="color: hsl(0deg 0.87% 46.99%); font-size: 14.4px;">(required)</span></label>
+                            <div class="error" id="messageError"></div>
+                            <textarea name="message" id="message" rows="4" placeholder="" ></textarea>
+                        </div>
+                                                        
+                        <button type="submit" class="button form-submit-button" id="sendButton">
+                            <span class="form-submit-button-label">Send</span>
+                            <span class="dARUh9Ts7pz6IZDb3qQX form-submit-button-state" aria-label="Send">
+                                <span class="outer-loader">
+                                    <span class="inner-loader"></span>
+                                </span>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                         <!-- Registration -->
+            </div>
+            <div class="insta"><a href="https://www.instagram.com/pragyaasthana23?igsh=bWdvbXhxM2VxY2Js"><i id="insta_1" class="fa-brands fa-instagram"></i></a></div>
+        </main>
+                                                    <!-- box2 -->
+            
+                                                      <!-- Footer / box7-->
+                               
+        <footer class="footer">
+            <div class="box7">
+                <section class="foot1">
+                    <h4 class="title1">Location</h4>
+                    <p class="details1">Janakpuri<br>New Delhi, Delhi <br><!--110058,--> 110059 </p>
+                </section>
+                <section class="foot2">
+                    <h4 class="title2">Hours</h4>
+                    <p class="details2">Monday — Friday<br>8:00 am — 4:00 pm</p>
+                </section>
+                <section class="foot3">
+                    <h4 class="title3">Contact</h4>
+                    <address>
+                        <a id="font16" href="mailto:hiyasrivastava777@gmail.com">hiyasrivastava777@gmail.com</a><br>
+                        <a id="font16" href="tel:+917985877742">+917985877742</a>
+                    </address>
+                </section>
+            </div>
+        </footer>
+                                                      <!-- Footer / box7-->                        
+       <!-- JavaScript -->
+    
+       <script src="contact.js"></script>
+    
+    </body>
+</html>
