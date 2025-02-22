@@ -46,83 +46,6 @@ function toggleMenu() {
     });
 
 
-// ccfccbcd/
-// ccfccbcd/
-
-
-document.getElementById("sendButton").addEventListener("click", function() {
-    let isValid = true;
-    
-    let errorMessages = [];
-let errorContainer = document.getElementById("errorContainer");
-errorContainer.innerHTML = ""; 
-
-let firstName = document.getElementById("first_name");
-let lastName = document.getElementById("last_name");
-let email = document.getElementById("email");
-let message = document.getElementById("message");
-
-let firstNameError = document.getElementById("firstNameError");
-let lastNameError = document.getElementById("lastNameError");
-let emailError = document.getElementById("emailError");
-let messageError = document.getElementById("messageError");
-
-firstNameError.textContent = "";
-lastNameError.textContent = "";
-emailError.textContent = "";
-messageError.textContent = "";
-
-
-
-let missingFields = [];   
-
-
-
-if (firstName.value.trim() === "" || lastName.value.trim() === "") {
-firstNameError.innerHTML = `<span class="warning-icon">!</span> Name is required.`;
-missingFields.push("Name");
-isValid = false;
-} else {
-    firstNameError.textContent = "";  
-}
-
-if (email.value.trim() === "") {
-emailError.innerHTML = `<span class="warning-icon">!</span> Email is required.`;
-errorMessages.push("Email is required");
-isValid = false;
-}
-
-if (message.value.trim() === "") {
-messageError.innerHTML = `<span class="warning-icon">!</span> Message is required.`;
-errorMessages.push("Message is required");
-isValid = false;
-}
-
-
-
-
-
-if (errorMessages.length > 0) {
-errorContainer.innerHTML = `<div class="error"><span class="warning-icon">!</span>Form submission failed. Review the following information: Name, Email, and Message. ${missingFields.join(", ")}.</div>`;
-}
-
-    
-    let button = document.getElementById("sendButton");
-    button.classList.add("loading");
-
-    setTimeout(() => {
-        button.classList.remove("loading");
-        
-        if (!isValid) {
-            button.classList.add("shake");
-            setTimeout(() => button.classList.remove("shake"), 600);
-        } else {
-            document.getElementById("registration").innerHTML = "<h2>Thank You!</h2>";
-        }
-    }, 1500); 
-});
-
-
 
 
 // gchghjhcgxh
@@ -203,8 +126,8 @@ setTimeout(() => {
    
     if (missingFields.length > 0) {
         errorContainer.innerHTML = `<div class="errorContainer">
-                                    <span class="warning-icon">!</span> Form submission failed. Review the following fields:
-                                    <strong>${missingFields.join(", ")}</strong>.
+                                    <span class="warning-icon">!</span> Form submission failed. Review the following fields.
+                                    <strong>${missingFields.join(",")}</strong>.
                                 </div>`;
         errorContainer.style.display = "flex"; 
     } else {
