@@ -102,12 +102,9 @@ Homepage Preview
 
 🔧 Services Section Preview
 
-![Homepage Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S1.png)  
-![About Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S2.png)  
-![Services Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S3.png)  
-![Homepage Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S4.png)  
-![About Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S5.png)  
-![Services Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S6.png)  
+![Homepage Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S3.png)  
+![About Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S1.png)  
+![Services Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S2.png)  
 
 
 ---
