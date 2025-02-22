@@ -87,7 +87,9 @@ setTimeout(() => {
 if (firstName.value.trim() === "" || lastName.value.trim() === "") {
 firstNameError.innerHTML = `<span class="warning-icon">!</span> Name is required.`;
 missingFields.push("Name");
+errorMessages.push("Name is required.");
 firstNameError.style.display = "flex";  
+isValid = false;
 } 
 
 else {
@@ -99,6 +101,7 @@ firstNameError.style.display = "none";
 setTimeout(() => {
 if (email.value.trim() === "") {
 emailError.innerHTML = `<span class="warning-icon">!</span> Email is required.`;
+missingFields.push("Email");
 errorMessages.push("Email is required.");
 emailError.style.display = "flex"; 
 isValid = false;
@@ -111,6 +114,7 @@ emailError.style.display = "none";
 setTimeout(() => {
 if (message.value.trim() === "") {
 messageError.innerHTML = `<span class="warning-icon">!</span> Message is required.`;
+missingFields.push("Message");
 errorMessages.push("Message is required.");
 messageError.style.display = "flex"; 
 isValid = false;
