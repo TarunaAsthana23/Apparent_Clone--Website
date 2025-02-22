@@ -104,7 +104,6 @@ Homepage Preview
 
 ![Homepage Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S3.png)  
 ![About Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S1.png)  
-![Services Page Screenshot](https://raw.githubusercontent.com/TarunaAsthana23/Apparent_Clone-Website/main/Img/S2.png)  
 
 
 ---
