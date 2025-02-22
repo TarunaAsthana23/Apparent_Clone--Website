@@ -56,13 +56,13 @@ Google Fonts	Professional typography
 
 1️⃣ Clone the repository
 
-sh```
-git clone https://github.com/your-username/apparent-technologies-website.git
+```sh
+git clone https://github.com/TarunaAsthana23/Apparent_Clone-Website.git
 ```
 
 2️⃣ Navigate to the project folder
 
-md```
+```md
 cd apparent-technologies-website
 ```
 3️⃣ Open index.html in a browser
